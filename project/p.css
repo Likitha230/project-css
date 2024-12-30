@@ -1,0 +1,443 @@
+*p{
+    font-size: 15px;
+    }
+    .parent1{
+      background-image: url(https://www.cybrix.org/wp-content/uploads/2024/06/cropped-natures-01.jpg);
+        height:100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .navbar{
+        display:flex;
+        background: none;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .parent1 a {
+        text-decoration: none;
+        color:rgb(5, 74, 5);
+    }
+    .child2{
+        display: flex;
+        align-items: center;
+        font-size: larger;
+        gap: 20px;
+        
+      }
+    .input-checkbox-toggler{
+        display: none;
+    }
+    
+    .ham-icon{
+        display: none;
+        color:rgb(5, 74, 5);
+    }
+    .ham-icon:hover{
+        cursor: pointer;
+        }
+     
+     
+    .parent1content {
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center; 
+      text-align: center; 
+      padding: 80px; 
+      margin: 0% 30%;
+      color: rgb(3, 30, 13);  
+    }
+    .parent1content h2 {
+      font-size: 3rem;
+      margin: 0; 
+      letter-spacing: 1px; 
+    }
+    
+    .parent1content h1 {
+      font-size:6rem;
+      margin: 10px 0;
+      font-weight: bold;
+      
+    }
+    
+    .parent1content p {
+      font-size: 1.25rem;
+      margin: 20px 0;
+      max-width: 600px; 
+      line-height: 1.6; 
+    }
+    .parent1content button {
+      background-color:rgba(10, 145, 129, 0.884); 
+      color: white;
+      padding: 15px 20px;
+      font-size: 1.2rem;
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+      transition: background-color 0.3s ease;
+    }
+    .parent1content button:hover {
+      background-color: #0d7c53;
+    }
+     .parent2content{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+          }
+    .p2 {
+          color: rgb(129, 175, 36);
+          text-align: center;
+          margin:50px;
+          font-size:50px;
+    
+          }
+          .p2cards h2{
+            line-height: 10px;
+          }
+    .p2cards{
+        display: flex;
+        flex-direction: column;
+        width:350px;
+        text-align:start;
+      }        
+    .p2cards img{
+        width:350px;
+        height:400px;
+    }    
+      .parent3{
+        width: 100%;
+       
+        background-color:rgba(128, 128, 128, 0.774);
+        justify-content: center;
+        align-items: center;
+       
+      }
+      .p3{
+        text-align: center;
+        padding: 6% 20%;
+        font-size: 2rem;
+      }
+      .p3 img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+      }
+      .parent4{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 50px;
+    padding: 100px;
+      }
+      .parent4content p{
+        font-size: 1.5rem;
+        color: rgba(0, 128, 0, 0.644);
+      }
+     .parent4content  h1{
+      font-size: 2rem;
+      color: rgba(0, 128, 0, 0.692); 
+     } 
+     .parent4content button{
+      font-size: 2rem;
+      color: rgba(0, 128, 0, 0.61);
+     }    
+        
+      .parent4 img{ 
+       height:450px;
+       width:400px;
+      }
+       .parent4content{
+        max-width:40% ;
+        text-align: center;
+    
+       }
+       .parent5{
+       
+        background-image: url("https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/footer-hero-big.jpg") ;
+        background-repeat: no-repeat;
+        background-size:  100% 100%;
+        width: 100%;
+    
+       }
+    
+      .parent5content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        padding:10% 20%;
+      }
+      .parent5content h1{
+        font-size:50px;
+        color: rgb(35, 44, 20);
+      }
+      .parent5content p{
+        font-size: 1.5rem;
+        color: rgb(43, 54, 23);
+      }
+      .parent5content button{
+        font-size:20px;
+        color: darkolivegreen;
+        background-color: rgba(255, 255, 0, 0.678);
+       border-radius: 5px;
+      }
+      .parent6{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:15px;
+        color: darkgreen;
+      }
+      .p6left{
+        display: flex;
+        gap: 10px;
+      }
+      @media screen and (max-width:576px){
+        *{
+            box-sizing: border-box;
+        }
+        .parent1{
+            background-image: url(https://www.cybrix.org/wp-content/uploads/2024/06/cropped-natures-01.jpg);
+              height:100%;
+              width: 100%;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+        }
+       .parent{
+        display:flex;
+        padding: 10px;
+        position: relative;
+       }
+        .child2{
+            display:none;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            width:100%;
+            background-color:grey;
+            color: white;
+        }
+        .ham-icon{
+            display:inline-block;
+        }
+        .input-checkbox-toggler:checked + .child2{
+            display: flex;
+            flex-direction: column;
+        }
+        .parent1content {
+            padding: 30px; 
+            margin: 0% 15%;
+            color: rgb(3, 30, 13);  
+          }
+          .parent1content h2 {
+            font-size: 1.6rem;
+            margin: 0; 
+    
+          }
+          .parent1content h1{
+            font-size: 3rem;
+          } 
+          .parent6{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap:10px;
+          }
+          .p6left{
+            display: flex;
+            gap: 15px;
+          
+    }
+    .parent2content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+          }
+    .p2cards{
+        display: flex;
+        flex-direction: column;
+        width:300px;
+        text-align:start;
+      } 
+      .p2cards img{
+        width:300px;
+        height:380px;
+    }  
+    .p3{
+        font-size: 1.5rem;
+      } 
+      .parent4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    padding: 10px;
+          }
+          .parent4content p{
+            font-size: 1.3rem;
+            color: rgba(0, 128, 0, 0.644);
+          }
+         .parent4content  h1{
+          font-size: 1.7rem;
+          color: rgba(0, 128, 0, 0.692); 
+         } 
+         .parent4content button{
+          font-size: 1.8rem;
+          color: rgba(0, 128, 0, 0.61);
+         }    
+            
+          .parent4 img{ 
+           height:450px;
+           width:400px;
+          }
+           .parent4content{
+            max-width:100% ;
+            text-align: center;
+        
+           }  
+      }
+        @media screen and (min-width:577px) and (max-width:768px){
+            *{
+                box-sizing: border-box;
+            }
+            .parent1{
+                background-image: url(https://www.cybrix.org/wp-content/uploads/2024/06/cropped-natures-01.jpg);
+                  height:100%;
+                  width: 100%;
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+            }
+           .parent{
+            display:flex;
+            padding: 10px;
+            position: relative;
+           }
+            .child2{
+                display:none;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 100px;
+                left: 0px;
+                width:100%;
+                background-color: grey;
+                color: white;
+            }
+            .ham-icon{
+                display:inline-block;
+            }
+            .input-checkbox-toggler:checked + .child2{
+                display: flex;
+                flex-direction: column;
+            }
+            .parent1content {
+                display: flex; 
+                flex-direction: column; 
+                justify-content: center;
+                align-items: center; 
+                text-align: center; 
+                padding: 40px; 
+                margin: 0% 20%;
+                color: rgb(3, 30, 13);  
+              }
+              .parent1content h2 {
+                font-size: 2rem;
+                margin: 0; 
+    
+              }
+              
+              .parent1content h1 {
+                font-size:4rem;
+                margin: 10px 0;
+                font-weight: bold;
+               
+              }
+              .parent1content p {
+                font-size: 1rem;
+                
+              }
+              .parent6{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap:10px;
+              }
+              .p6left{
+                display: flex;
+                gap: 5px;
+        }
+        .parent2content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+              }
+        .p2cards{
+            display: flex;
+            flex-direction: column;
+            width:350px;
+            text-align:start;
+          }        
+        .p2cards img{
+            width:350px;
+            height:400px;
+        }    
+          
+          .p3{
+            font-size: 1.5rem;
+          } 
+          .parent4{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            padding:10px;
+              }
+              .parent4content p{
+                font-size: 1.3rem;
+                color: rgba(0, 128, 0, 0.644);
+              }
+             .parent4content  h1{
+              font-size: 1.7rem;
+              color: rgba(0, 128, 0, 0.692); 
+             } 
+             .parent4content button{
+              font-size: 1.8rem;
+              color: rgba(0, 128, 0, 0.61);
+             }    
+                
+              .parent4 img{ 
+               height:450px;
+               width:400px;
+              }
+               .parent4content{
+                max-width:100% ;
+                text-align: center;
+            
+               }
+    }
